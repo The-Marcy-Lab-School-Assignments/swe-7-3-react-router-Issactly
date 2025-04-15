@@ -56,7 +56,7 @@ if (!robot) return <NotFoundPage />;
             />
           </div>
           <div className="four wide column">
-            <h2>name: {robot.name}</h2>
+            <h2>Name: {robot.name}</h2>
             <p>
               <strong>Catchphrase: </strong>
               {robot.catchphrase}
